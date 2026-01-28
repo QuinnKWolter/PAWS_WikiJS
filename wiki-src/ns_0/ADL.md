@@ -1,0 +1,49 @@
+## Description
+
+\nPAWS participation in ADL is focused in the development of
+MasteryGrids system. Mastery Grids is a visual-rich, interactive,
+adaptive E-learning platform with integrated functionalities enabling
+multi-facet social comparison, open user modeling, and multi-type
+learning materials support. It presents and compares user learning
+progress and knowledge level (mastery) by colored grids, tracks user
+activities and feedbacks dynamically and provides flexible user-centered
+navigation across different content levels (e.g. topic, question) and
+different content types (e.g. question, example) of learning
+materials.\nThe architecture supporting Mastery Grids fulfills a major
+objective, portability, which is the ability to be integrated to other
+systems with little set up and modification. The architecture is modular
+and includes different software components:\n\n\*frontend user-system
+interaction interface, the
+<a href="Mastery_Grids_Interface" class="wikilink"
+title="Mastery Grids Interface">Mastery Grids Interface</a>,\n\n\*backend
+***Aggregate*** services communicating between the main interface and
+user modeling services,\n\n\*backend user modeling services,
+and\n\n\*backend content providing applications.\n\nAn overall
+architecture of the system can be sen in the next figure.
+\n\n![](architecture_v1.png "architecture_v1.png")\n\n== Systems
+==\n\n=== Mastery Grids
+===\n<a href="MasteryGrids" class="wikilink" title="More">More</a>\n\n===
+Aggregate
+===\n<a href="Aggregate" class="wikilink" title="More">More</a>\n\n==
+Learning Content ==\n\n== Authoring Tools == \n==== Content Authoring
+====\nThis tool provides the interface for teachers to create and index
+annotated examples.
+<a href="ContentAuthoring" class="wikilink" title="more">more</a>\n\n====
+Course Authoring ====\nThis tool provides the interface for teachers to
+create courses for Mastery Grids.
+<a href="CourseAuthoring" class="wikilink" title="more">more</a>\n\n====
+Group Authoring ====\nThis tool provides the interface for teachers to
+define groups of students who can access the course.
+<a href="GroupAuthoring" class="wikilink" title="more">more</a>\n==
+Resources == \nSoftware sources and documentation is in GitHub. The
+Mastery Grids Interface, backend Aggregate and documentation can be
+found
+[here](https://github.com/PAWSLabUniversityOfPittsburgh/MasteryGrids).
+User model services can be found in
+[here](https://github.com/PAWSLabUniversityOfPittsburgh/AggregateUMServices).\n\n==
+Publications ==\n\*Loboda, T., Guerra, J., Hosseini, R., and
+Brusilovsky, P. (2014) Mastery Grids: An Open Source Social Educational
+Progress Visualization. In: S. de Freitas, C. Rensing, P. J. Muñoz
+Merino and T. Ley (eds.) Proceedings of 9th European Conference on
+Technology Enhanced Learning (EC-TEL 2014), Graz, Austria, September
+16-19, 2014 (Best paper award).

@@ -1,0 +1,9 @@
+A domain model (DM) in the adaptive educational systems field is
+traditionally understood to be any formal representation of knowledge
+about the domain. This model can serve various needs, not just
+personalized guidance. However, due to the special needs of personalized
+guidance, DMs used for personalized guidance have some common features.
+To examine the specific needs of personalized guidance, we need to
+understand how educational content is organized and which decisions have
+to be made to guide students to the most appropriate elements of this
+content.

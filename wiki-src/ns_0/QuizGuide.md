@@ -1,0 +1,68 @@
+## About QuizGuide
+
+\n\nQuizGuide (Brusilovsky et al., 2004), an adaptive front-end to a
+collection of interactive self-assessment questions in the domain of C
+programming. The domain model in QuizGuide is formed by 22 topics such
+as variables, constants or character processing (Figure 3a). The system
+is able to model learner knowledge independently by topic and visualize
+the state of this learner model through adaptive annotation of link
+using the “target-arrow” icons (Figure 1). The number of arrows in the
+target reflects the level of knowledge the student has acquired on the
+topic: the more arrows the target has, the higher the level of
+knowledge. The intensity of the target’s color shows the relevance of
+the topic to the current learning goal: the more intense the color is,
+the more relevant the topic. This interface combined successful features
+of open learner models and navigation support: it provides a clear
+presentation of student knowledge by topic while also helping the
+student to select the optimal topic to work (one that is ready to be
+explored, but still not mastered).\n\nDespite a relatively simple
+adaptation approach, the navigation support provided by QuizGuide
+resulted in a remarkable impact on student performance and motivation to
+work with the system. In comparison with QuizPACK (Brusilovsky &
+Sosnovsky, 2005b), an earlier version of the system which provided
+access to the same quizzes with no navigation support, the average
+knowledge gain (a difference between post-test and pre-test results on a
+10-point test) for the students using QuizGuide increased from 5.1 to
+6.5. By guiding students to the right topics at the right time, the
+system caused a significant increase in the percentage of correctly
+answered questions from 35.6% to 44.3% (Brusilovsky & Sosnovsky, 2005a).
+Most remarkable, however, was an increase in the students’ interest in
+working with the system. The number of attempts, the percentage of
+students using the system actively, and the percentage of attempted
+topics increased significantly (Brusilovsky & Sosnovsky, 2005a). A
+re-implementation of QuizGuide’s adaptive navigation support approach in
+<a href="SQLGuide" class="wikilink" title="SQLGuide">SQLGuide</a> for
+SQL (Sosnovsky et al., 2008) and
+<a href="JavaGuide" class="wikilink" title="JavaGuide">JavaGuide</a> for
+Java programming (Hsiao et al., 2009) confirmed this impact in two other
+domains.\n\nThe first version of QuizGuide offered navigation support on
+the level of topics only. as a result, it provided no support for
+selecting a specific problem within a topic - all of them were identical
+from the prospect of the system (i.e., all could contribute to the
+student knowledge of the topic). To address this problem, we added
+concept-level student modeling to the system using C programming
+ontology developed by our group. The ability to track student knowledge
+on the concept level allowed QuizGuide to provide independent navigation
+support for every problem offering students an estimation of how much
+knowledge about the concepts engaged in the problem has already been
+obtained.\n\n== Publications ==\n\* Brusilovsky, P., Sosnovsky, S., and
+Shcherbinina, O. (2004) QuizGuide: Increasing the Educational Value of
+Individualized Self-Assessment Quizzes with Adaptive Navigation Support.
+In: J. Nall and R. Robson (eds.) Proceedings of World Conference on
+E-Learning, E-Learn 2004, Washington, DC, USA, November 1-5, 2004, AACE,
+pp. 1806-1813, also available at
+[1](http://www.sis.pitt.edu/~peterb/papers/ELearnQP04.pdf).\n\*
+Brusilovsky, P. and Sosnovsky, S. (2005) Engaging students to work with
+self-assessment questions: A study of two approaches. In: Proceedings of
+10th Annual Conference on Innovation and Technology in Computer Science
+Education, ITiCSE'2005, Monte de Caparica, Portugal, June 27-29, 2005,
+ACM Press, pp. 251-255, also available at
+[2](http://www2.sis.pitt.edu/~peterb/papers/ITICSE05.pdf).\n\*
+Sosnovsky, S. and Brusilovsky, P. (2015) Evaluation of Topic-based
+Adaptation and Student Modeling in QuizGuide. User Modeling and
+User-Adapted Interaction 25 (4), 371-424.\n\n== Topic-level Open Learner
+Modeling and Navigation Support ==\n![QuizGuide
+I](QuizGuide1.png "QuizGuide I")\n\n== Concept-level Open Learner
+Modeling and Navigation Support ==\n![QuizGuide
+II](Quizguide.gif "QuizGuide II")\n\n== Domain Model ==\n\n![QuizGuide
+Domain Model](QGDomain.png "QuizGuide Domain Model")

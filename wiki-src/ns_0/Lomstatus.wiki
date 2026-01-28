@@ -1,0 +1,1 @@
+== Overview ==\n[[lomstatus]] is a vocabulary of [[lom#Status|lom:Status]]&rarr;[[lom#status|lom:status]]&rarr;... values from [[LOM]] schema\n\n== Prefix ==\n\nlomstatus : http://purl.org/lom/voc/Status/\n\n== Values ==\n* <span id='draft'>draft</span> -\n* <span id='final'>final</span> -\n* <span id='revised'>revised</span> -\n* <span id='unavailable'>unavailable</span> -

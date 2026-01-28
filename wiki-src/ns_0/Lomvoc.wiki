@@ -1,0 +1,1 @@
+== Overview ==\n[[lomvoc]] is a meta-vocabulary it aggregates other vocabularies of [[LOM]] schema\n\n== Vocabularies ==\n* [[lomstruc]]\n* [[lomagglvl]]\n* [[lomstatus]]\n* [[lominttype]]\n* [[lomlrtype]]\n* [[lomintlvl]]\n* [[lomsemden]]\n* [[lominteur]]\n* [[lomcon]]\n* [[lomdiff]]\n* [[lomrole]]\n* [[lombrotech]]\n* [[lomostech]]\n* [[lompurp]]

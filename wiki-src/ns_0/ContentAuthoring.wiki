@@ -1,0 +1,1 @@
+== Resources ==\nSource codes are available in GitHub in [https://github.com/PAWSLabUniversityOfPittsburgh/AuthoringTool_Beta.git here].\nTutorial slides are available in [[Media:Authoring.pdf|here]].\n\nThe system is available in [http://adapt2.sis.pitt.edu/authoringtool_beta/ here].

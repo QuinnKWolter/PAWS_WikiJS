@@ -1,0 +1,1 @@
+QuizJET authoring tool provides interface to create and mofidy [[Smart Content|parameterized semantics problems]], organize such problems into topics, and index such problems with underlying concepts. See [[QuizJET Authoring System]].

@@ -1,0 +1,28 @@
+In this section we explain some of the recommender approaches that has
+been developed and used in Mastery Grids.\n\n== ProActive
+Recommendations ==\nThese recommender systems require no trigger. They
+are represented in Mastery Grids interface as stars on the topic and
+learning resources. The size of star shows the importance (weight) of
+recommended material. Two recommender systems has been implemented in
+this setting: Adaptive Sequencing, and Probabilistic Outspread
+approaches.\nAdaptive sequencing is a greedy sequencing approach aimed
+at maximizing each student’s level of knowledge and activities. The
+learning material are ranked by balancing the knowledge level of each
+student in the prerequisite concepts of the learning material with the
+knowledge that can be gained from the outcome concepts.\nThe
+probabilistic outspread approach aims to select the learning material
+that increases the probability of the student solving all of the quizzes
+in the course. It uses FAST as its underlying probabilistic model of
+student's knowledge and performance.\n\n== ReActive Recommendations
+==\nThese recommendations occur only when student fails in solving a
+question correctly in Mastery Grids. The student is going to be
+suggested some examples that can help the student acquire the skills
+needed to solve the original question.\n\nThe following images show
+example line recommendation and learning resource recommendation in
+Mastery Grids.\n\nExample line
+recommendation:\n\n<img src="ExampleLineRecommendation.png"
+title="ExampleLineRecommendation.png" width="325" height="650"
+alt="ExampleLineRecommendation.png" />\n\n\nLearning Resource
+Recommendation:\n
+\n<img src="StarRecommendation.png" title="StarRecommendation.png"
+width="325" height="650" alt="StarRecommendation.png" />

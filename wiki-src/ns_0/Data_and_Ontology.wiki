@@ -1,0 +1,1 @@
+== Data == \n== Ontology ==\nPlease cite PAWs lab if you use following resources.\n* [https://www.sis.pitt.edu/~paws/ont/sql.rdf SQL ontology link]. \n* [http://www.pitt.edu/~paws//ont/java.owl Java ontology link]. You can also query KT um2 tables to get the nodes (not the structure). The latest version is with domain id 11 (java ontology v.2).

@@ -137,3 +137,48 @@ dist
 # Vite logs files
 vite.config.js.timestamp-*
 vite.config.ts.timestamp-*
+
+# WikiJS specific
+data/
+*.db
+*.sqlite
+*.sqlite3
+
+# Environment variables
+.env
+.env.local
+.env.production
+
+# MediaWiki dumps and backups
+*.xml
+backup/
+mediawiki-dump.xml
+mediawiki-*.xml
+
+# Converted content (will be imported, but keep source control clean)
+content/pages/*.md
+content/media/*
+!content/pages/.gitkeep
+!content/media/.gitkeep
+
+# Logs and temporary files
+*.log
+logs/
+temp/
+tmp/
+broken-links-report.txt
+
+# Docker volumes
+postgres-data/
+
+# OS files
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# IDE files
+.idea/
+.vscode/
+*.swp
+*.swo
+*~

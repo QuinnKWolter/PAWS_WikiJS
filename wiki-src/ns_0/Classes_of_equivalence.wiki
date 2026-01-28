@@ -1,0 +1,1 @@
+* Label AKA Name AKA Title\n** [[dc#title|dc:title]]\n** [[rdf#label|rdf:label]]\n** [[rss#channel.title|rss:channel.title]]\n** [[rss#item.title|rss:item.title]]\n* Description\n** [[dc#description|dc:description]]\n** [[rss#channel.description|rss:channel.description]]\n** [[rss#item.description|rss:item.description]]

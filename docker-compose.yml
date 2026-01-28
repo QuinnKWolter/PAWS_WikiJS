@@ -1,0 +1,76 @@
+version: '3.8'
+
+services:
+  wikijs:
+    image: requarks/wiki:2.5
+    container_name: paws-wikijs
+    restart: unless-stopped
+    ports:
+      - "${WIKI_PORT:-3000}:3000"
+    environment:
+      # Database Configuration
+      DB_TYPE: ${DB_TYPE:-postgres}
+      DB_HOST: ${DB_HOST:-postgres}
+      DB_PORT: ${DB_PORT:-5432}
+      DB_USER: ${DB_USER:-wikijs}
+      DB_PASS: ${DB_PASS}
+      DB_NAME: ${DB_NAME:-wikijs}
+      
+      # WikiJS Configuration
+      NODE_ENV: production
+      WIKI_HTTPS: ${WIKI_HTTPS:-false}
+      WIKI_HOST: ${WIKI_HOST:-localhost}
+      WIKI_PORT: 3000
+      
+      # Storage
+      STORAGE_TYPE: ${STORAGE_TYPE:-local}
+      STORAGE_LOCAL_PATH: /wiki/storage
+      
+      # Security
+      SESSION_SECRET: ${SESSION_SECRET}
+      
+    volumes:
+      # Content and configuration
+      - ./data/content:/wiki/content
+      - ./data/storage:/wiki/storage
+      - ./data/logs:/wiki/logs
+      
+      # Theme customization
+      - ./theme:/wiki/theme
+      
+      # Media files
+      - ./media:/wiki/media
+      
+    depends_on:
+      - postgres
+    
+    networks:
+      - wikijs-network
+
+  postgres:
+    image: postgres:17.4
+    container_name: paws-wikijs-db
+    restart: unless-stopped
+    environment:
+      POSTGRES_DB: ${DB_NAME:-wikijs}
+      POSTGRES_USER: ${DB_USER:-wikijs}
+      POSTGRES_PASSWORD: ${DB_PASS}
+      POSTGRES_INITDB_ARGS: "-E UTF8"
+    volumes:
+      - postgres-data:/var/lib/postgresql/data
+    networks:
+      - wikijs-network
+    healthcheck:
+      test: ["CMD-SHELL", "pg_isready -U ${DB_USER:-wikijs} -d ${DB_NAME:-wikijs}"]
+      interval: 10s
+      timeout: 5s
+      retries: 5
+
+volumes:
+  postgres-data:
+    driver: local
+
+networks:
+  wikijs-network:
+    driver: bridge
+

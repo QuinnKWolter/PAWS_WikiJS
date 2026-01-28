@@ -1,0 +1,14 @@
+Yeah, I Play tennis too\n\nDenis Parra, IS Ph.D. graduated in 2013, is
+Assistant Professor in the Computer Science Department at the Pontifical
+Catholic University of Chile (PUC Chile), ranked the number \#1
+university in Latin America in 2014
+(http://www.topuniversities.com/university-rankings/latin-american-university-rankings/2014).
+Professor Parra in his first year working at PUC Chile taught one class
+at undergraduate level (Introduction to Computer Science) and two
+classes at graduate level (Data Mining and Recommender Systems). This
+year 2014, Professor Parra won the contest for the Invited talk at the
+Chilean Computer Society week in October, where he presented his work on
+Recommender Systems from the last 6 years. In addition, he was local
+organizer of the 24th ACM Hypertext Conference and co-organizer of the
+1st international Workshop on Social Personalization, both held in
+Santiago, Chile during September.

@@ -1,0 +1,103 @@
+Mastery Grids aims to provide better experience to both students and
+instructors by using automatic tools and techniques that are derived by
+machine learning and data mining algorithms on its data. In this
+section, we introduce some of the projects performed on Mastery Grids'
+data for this purpose.\n\n== Problem Solving Genome for Students ==\nIn
+this research we study the students' behavioral patterns in attempting
+quizzes and repeating them. We look at attempt sequence of students,
+model, and examine patterns of student behavior with parameterized
+exercises. Starting with micro-patterns (genes) that describe small
+chunks of repetitive behavior of students, we construct individual
+student profiles (genomes) as frequency profiles. These profiles show
+the dominance of each gene (repetitive pattern) in individual behavior.
+We cluster the students using these profiles and study their learning
+gains in relation to their constructed genome. The exploration of
+student genomes revealed the individual genome is considerably stable,
+distinguishing students from their peers. It uniquely identifies a user
+among other users over the whole duration of the course despite a
+considerable growth of student knowledge over the course duration. While
+the problem complexity does affect the behavior patterns as well, we
+demonstrated that the genome is defined by some inherent characteristics
+of the user rather than a difficulty profile of the problems she
+solves.\nIn the group level, all students can be most reliably split
+into just two cohorts that differ considerably by their behavior. After
+that split, we are able to contrast successful and less successful
+learners by their behavior and identify “beneficial” and “harmful” genes
+for each cohort. In particular, it is interesting to observe that the
+behavior of successful learners in one cohort is somewhat closer to the
+behavior of the opposite
+cohort.\n\n\nCategories\n<img src="ProblemSolvingGenome.png" title="ProblemSolvingGenome.png"
+width="650" height="1300" alt="ProblemSolvingGenome.png" />\n\n\n==
+Tensor and Matrix Factorization in Predicting Student Performance
+==\nThis research aims to predict success and failure of students in
+future questions using collaborative-filtering approaches including
+tensor and matrix factorizations. One of the benefits of these models is
+their ability to estimate the underlying skills of questions
+automatically. In this work, we research on these approaches on
+educational data in two settings: considering the attempt (time)
+sequence of students and considering the underlying concept structure of
+questions. We compare these approaches with state of the art methods
+such as <a href="Feature-Aware_Student_knowledge_Tracing_(FAST)"
+class="wikilink"
+title="Feature-Aware Student knowledge Tracing (FAST)">Feature-Aware
+Student knowledge Tracing (FAST)</a>, Bayesian Knowledge Tracing, and
+Performance Factor Analysis.\n\n== Feedback-Driven Tensor Factorization
+or Simultaneously Modeling Student Knowledge and Course Content
+==\nAlthough the tasks of domain modeling, predicting student
+performance, and student knowledge modeling are interrelated, these
+problems are usually addressed separately in the literature of
+educational data mining. Also, the traditional tensor and matrix
+factorization algorithms, that can extract the domain model while
+predicting student performance, are not designed for educational
+purposes: these models ignore the fact that students' knowledge in each
+step is related to her knowledge in previous steps and the concepts she
+is practicing while taking current learning resources. In this work, we
+propose a tensor factorization algorithm that can simultaneously perform
+all of the aforementioned tasks, while imposing a constraint to increase
+the knowledge of students using the feedback it receives from the
+current learning
+resources.\n\n<img src="TensorFactorization.png" title="TensorFactorization.png"
+width="650" height="1300" alt="TensorFactorization.png" />\n\n==
+Exploring Problem Solving Paths in a Java Programming Course
+==\nAssessment of students’ programming submissions has been the focus
+of interest in many studies. Although the final submissions capture the
+whole program, they often tell very little about how it was\ndeveloped.
+In this paper, we are able to look at intermediate programming steps
+using a unique dataset that captures a series of snapshots showing how
+students developed their program over time. We assessed each of these
+intermediate steps and performed a fine-grained concept-based analysis
+on each step to identify the most common programming paths. Analysis of
+results showed that most of the students tend to incrementally build the
+program and improve its correctness. This finding provides us with
+evidence that intermediate programming steps are important, and need to
+be taken into account for not only improving user modelling in
+educational programming systems, but also for providing better feedback
+to students.
+\n\n<img src="Programming_patterns.jpg" title="Programming_patterns.jpg"
+width="900" height="500" alt="Programming_patterns.jpg" />\n\n==
+Publications ==\n\* Guerra, J., Sahebi, S., Lin, Y.-R., and Brusilovsky,
+P. (2014) The Problem Solving Genome: Analyzing Sequential Patterns of
+Student Work with Parameterized Exercises. In: J. Stamper, Z. Pardos, M.
+Mavrikis and B. M. McLaren (eds.) Proceedings of the 7th International
+Conference on Educational Data Mining (EDM 2014), London, UK, July 4-7,
+2014, pp. 153-160
+([presentation](http://www.slideshare.net/huangyun/guerra-the-problemsolvinggenome)[paper](http://educationaldatamining.org/EDM2014/uploads/procs2014/long%20papers/153_EDM-2014-Full.pdf))\n\*
+Sahebi, S., Huang, Y., and Brusilovsky, P. (2014) Parameterized
+Exercises in Java Programming: Using Knowledge Structure for Performance
+Prediction. In: Proceedings of The second Workshop on AI-supported
+Education for Computer Science (AIEDCS) at 12th International Conference
+on Intelligent Tutoring Systems ITS 2014, Honolulu, Hawaii, June 6 2014.
+([paper](http://d-scholarship.pitt.edu/21915/))([presentation](http://www.slideshare.net/chagh/parameterized-exercises-in-java-programming-using-knowledge-structure-for-performance-prediction))\n\*
+Sahebi, S., Huang, Y., and Brusilovsky, P. (2014) Predicting Student
+Performance in Solving Parameterized Exercises. In: S. Trausan-Matu, K.
+Boyer, M. Crosby and K. Panourgia (eds.) Proceedings of 12th
+International Conference on Intelligent Tutoring Systems (ITS 2014),
+Honolulu, HI, USA, June 5-9, 2014, Springer International Publishing,
+pp. 496-503, ([paper](http://d-scholarship.pitt.edu/21916/))
+([presentation](http://www.slideshare.net/chagh/its14-pitttemplate))\n\*
+Hosseini, R., Vihavainen, A., and Brusilovsky, P. (2014) Exploring
+Problem Solving Paths in a Java Programming Course. In: Proceedings of
+Psychology of Programming Interest Group Annual Conference, PPIG 2014,
+Brighton, UK, June 25-27, 2014, pp. 65-76.
+([paper](https://d-scholarship.pitt.edu/secure/26272/1/PPIG_2014_camera_ready.pdf))
+([presentation](http://www.slideshare.net/RoyaHosseini1/ppig2014-problem-solvingpaths))

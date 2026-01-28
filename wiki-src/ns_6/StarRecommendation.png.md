@@ -1,0 +1,2 @@
+Shows the stars in masterygrids interface that represent proactive
+recommendations.

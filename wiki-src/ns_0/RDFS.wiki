@@ -1,0 +1,1 @@
+== Overview ==\n[[RDFS]] schema together with [[RDF]] schema form the basic syntax for any RDF content\n\n== Vocabularies ==\n* [[rdfs]] - http://www.w3.org/2000/01/rdf-schema#\n\n== Related Links ==\n* [http://www.w3.org/TR/rdf-schema/ RDFS]

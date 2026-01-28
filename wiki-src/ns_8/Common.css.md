@@ -1,0 +1,2 @@
+/\*\* CSS placed here will be applied to all skins
+\*/\n.img-responsive{\n max-width:100%;\n height:auto;\n}
